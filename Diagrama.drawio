@@ -1,32 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0" version="27.0.1">
   <diagram name="Página-1" id="_A64Ads1twqYrYs-hKGI">
-    <mxGraphModel dx="1065" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="1791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zANOIU-7cSAEvDh_QMeP-2" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="374" y="40" width="80" height="80" as="geometry" />
+        <mxCell id="zANOIU-7cSAEvDh_QMeP-2" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="374" y="-230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zANOIU-7cSAEvDh_QMeP-3" value="Fin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="374" y="585" width="80" height="80" as="geometry" />
+        <mxCell id="zANOIU-7cSAEvDh_QMeP-3" value="Fin" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="374" y="485" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zANOIU-7cSAEvDh_QMeP-4" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="228" y="190" width="372" height="340" as="geometry" />
+        <mxCell id="zANOIU-7cSAEvDh_QMeP-4" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="228" y="90" width="372" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="zANOIU-7cSAEvDh_QMeP-5" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="zANOIU-7cSAEvDh_QMeP-4">
+        <mxCell id="zANOIU-7cSAEvDh_QMeP-5" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" parent="zANOIU-7cSAEvDh_QMeP-4" vertex="1">
           <mxGeometry x="42" y="100" width="288" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="zANOIU-7cSAEvDh_QMeP-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zANOIU-7cSAEvDh_QMeP-2" target="zANOIU-7cSAEvDh_QMeP-4">
+        <mxCell id="zANOIU-7cSAEvDh_QMeP-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zANOIU-7cSAEvDh_QMeP-2" target="zANOIU-7cSAEvDh_QMeP-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="130" as="sourcePoint" />
             <mxPoint x="440" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zANOIU-7cSAEvDh_QMeP-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zANOIU-7cSAEvDh_QMeP-4" target="zANOIU-7cSAEvDh_QMeP-3">
+        <mxCell id="zANOIU-7cSAEvDh_QMeP-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zANOIU-7cSAEvDh_QMeP-4" target="zANOIU-7cSAEvDh_QMeP-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="570" as="sourcePoint" />
-            <mxPoint x="510" y="520" as="targetPoint" />
+            <mxPoint x="460" y="470" as="sourcePoint" />
+            <mxPoint x="510" y="420" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nd414sEPEMpdzfntZ1py-1" value="Tengo que hacer esto en diagrama, dame una estructura basica pero aun no arranques por los puntos&lt;br&gt;Una empresa registró las ventas que realizó durante el mes anterior. Para cada venta se tienen los siguientes datos:&lt;br&gt;&lt;br&gt;&lt;br&gt;Número de artículo (1 a 10)&amp;nbsp;&lt;br&gt;Día (1 a 31)&lt;br&gt;Cantidad de artículos vendidos&lt;br&gt;Precio de costo.&lt;br&gt;Precio de venta.&amp;nbsp;&lt;br&gt;Este lote finaliza con un registro con número de artículo igual a cero. Los registros están agrupados por número de artículo.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;Se pide determinar e informar:&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;a) El número del artículo qué más ganancia haya recaudado.&lt;/span&gt;&lt;/div&gt;b) La cantidad total de artículos vendidos en cada quincena sin tener en cuenta los artículos de los que no se hayan registrado ventas.&lt;br&gt;c) Teniendo en cuenta la cantidad total de ventas, informar el porcentaje de ventas para la primera semana del mes.&lt;br&gt;d) La cantidad de ventas del artículo 5 el día 16 del mes. De no detectar ventas, indicarlo con un cartel aclaratorio.&lt;br&gt;e) El número de artículos con el menor promedio facturado de todo el mes.&lt;br&gt;f) Teniendo en cuenta que el mes comienza un lunes, calcular la ganancia total obtenida durante el primer fin de semana del mes." style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-230" width="420" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="nd414sEPEMpdzfntZ1py-4" value="artMayorGanancia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="-90.00000000000011" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nd414sEPEMpdzfntZ1py-5" value="cant_quincena" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="-50.000000000000114" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nd414sEPEMpdzfntZ1py-6" value="cant_total" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="-10.000000000000114" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nd414sEPEMpdzfntZ1py-7" value="gananciaFinde" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="29.999999999999886" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
